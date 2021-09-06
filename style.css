@@ -1,0 +1,138 @@
+
+:root {
+    --main-bg-color: black;
+  }
+
+p, h1, h5, button{
+    color: white;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+
+button  {
+    width: 175px;
+    height: 175px;
+    background-color: var(--main-bg-color);
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+
+ td {
+    border-left: 7px solid white;
+    border-radius: 10%;
+  }
+
+  #r1 > td, #r2 > td{
+      border-bottom: 7px solid white;
+      border-radius: 10%;
+  }
+
+.c1{
+    border-left: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: white;
+    color: white;
+}
+
+#heading{
+    background-color: var(--main-bg-color);
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 70px;
+}
+
+#background{
+    background-color: black;
+    padding: 50px;
+    display:inline-block;
+    margin: auto;
+    
+    
+}
+
+#reset{
+    border-radius: 10%;
+    width: 75px;
+    height: 50px;
+    border-color: white;
+    background-color: lightgray;
+    border-width: 3px;
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+   
+
+}
+#directions{
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+}
+#reset{
+    background-color: white;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    font-size: 22px;
+}
+#results{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 22px;
+    background-color: var(--main-bg-color);
+    padding: 10px;
+    bottom: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#enclosed{
+    background-color: var(--main-bg-color);
+    text-align: center;
+}
+
+
+
+#reset:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.xtic {
+    font-size: 145px; 
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.otic {
+    font-size: 145px; 
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+

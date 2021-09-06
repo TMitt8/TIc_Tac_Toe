@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1 id="heading"> Tic Tac Toe!</h1>
+    <h5 id="directions"> You will be playing as X. To place an X, click on the tile you want to choose.</h5>
+  <div id="enclosed">
+    <div id="results">
+        <p id="wins">Wins: 0</p>
+        <p id="losses">Losses: 0</p>
+        <p id="ties">Ties: 0</p>
+        <button id="reset" onclick="clear2()">Reset</button>
+    </div>
+    <div id="background">
+        <table id="table">
+            <tr id = "r1">
+                <td class = "c1">
+                    <button id=r1c1 onclick="addX()"> </button>
+                </td>
+                <td class = "c2">
+                    <button id=r1c2 onclick="addX()"> </button>
+                </td>
+                <td class = "c3">
+                    <button id=r1c3 onclick="addX()"> </button>
+                </td>
+            </tr>
+            <tr id = "r2">
+                <td class = "c1">
+                    <button id=r2c1 onclick="addX()"> </button>
+                </td>
+                <td class = "c2">
+                    <button id=r2c2 onclick="addX()"> </button>
+                </td>
+                <td class = "c3">
+                    <button id=r2c3 onclick="addX()"> </button>
+                </td>
+            </tr>
+            <tr id = "r3">
+                <td class = "c1">
+                    <button id=r3c1 onclick="addX()"> </button>
+                </td>
+                <td class = "c2">
+                    <button id=r3c2 onclick="addX()"> </button>
+                </td>
+                <td class = "c3"> 
+                    <button id=r3c3 onclick="addX()"> </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+  </div>
+
+    </body>
+</html>
